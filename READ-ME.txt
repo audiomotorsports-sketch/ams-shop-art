@@ -1,0 +1,14 @@
+Audio MotorSports shop art — first pass, desktop only.
+
+14 files. Filenames match the brief. Actual pixels are 1792 x 1008 (16:9 JPEG).
+Rule 11 forbids upscaling a smaller render to 2560 x 1440, so these were NOT resized up.
+Do not drop them in as if they were 2560x1440.
+
+Not in this folder yet:
+- 13 portrait 1080x1920 category banners
+- shop mobile
+- 18 brand banners x 2 sizes
+That is 50 files still to make. 64 total in the brief.
+
+No category names, no Sony, no Hifonics, no JL wordmark baked in.
+Top-right is left as empty background for the site tag.

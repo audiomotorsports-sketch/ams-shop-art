@@ -1,0 +1,6 @@
+Native pixels, not the brief size. Not upscaled.
+Desktop files: 1792 x 1008
+Mobile files: 1008 x 1792
+Brief asked 2560x1440 and 1080x1920. Rule 11 forbids upscaling, so these stay native.
+Missing: all 18 brand banners (36 files) and rca-amp-kits mobile (that render still showed four RCA plugs).
+RCA desktop was redone as one red cable and one white cable.
