@@ -1,47 +1,23 @@
-# Audio MotorSports homepage mock v2
+# Audio MotorSports homepage mock v3
 
-White Crutchfield-inspired shelf layout. Not production. Do not deploy.
+v3: placeholder badges removed. Zack approved v2 layout otherwise.
+White Crutchfield-inspired shelf. Not production. Do not deploy.
 
 ## Files
-- Screenshot: `/workspace/screenshots/ams-homepage-mock-crutchfield-v2.png`
+- Screenshot: `/workspace/screenshots/ams-homepage-mock-crutchfield-v3.png`
 - HTML: `mocks/ams-homepage-mockup.html`
-- Google Drive JPG: https://drive.google.com/file/d/1HpKPCmykjMG1cyFzkEG8okapb5pj6Wwd/view?usp=drivesdk
-- Google Drive banner JPG: https://drive.google.com/file/d/1Eu8Yk7gDMkuybkL3TNcN0D7iXQYXnzl7/view?usp=drivesdk
+- Google Drive PNG: https://drive.google.com/file/d/1OKFbo4oeYVa4DGXk9H2JxF0MxPdZzgW0/view?usp=drivesdk
+- Google Drive JPG: https://drive.google.com/file/d/1-rScH_lE49IpqYjbObQnkSyRsIue482l/view?usp=drivesdk
 
-## Banner
-- Chips: Buy Now · Pay Later · pickup in Carson
-- No product thumbs in the banner
-- Text: “Buy Now, Pay Later — drive in / pick up from Carson today.”
-- Phone in chrome only: (310) 513-8800
-- No owner bio, no tint pitch, no testimonials, no dark hero
+## v3 change
+- Removed every yellow/gold “PLACEHOLDER PRODUCT” badge from product cards
+- Removed “Placeholder products — not live catalog SKUs” line above the grid
+- Cards now show name + category + “See price in shop” only
+- Footer “Mockup only — not production” kept
 
-## Left rail
-- No aria-current on homepage
-- No brand facets on homepage
-- Category links → `/shop/` pages
-- Nested items stay in the left rail
-- Facets are page-local mock examples
-
-## Tree + live counts
-- Car Stereos (28) /shop/car-stereos/
-- Speakers (33) /shop/speakers/ — expanded
-  - Size: 4", 4x6, 5x7/6x8, 5.25", 6.5/6.75", 6x9
-  - Type: Coaxial, Component
-- Subwoofers (16) /shop/subwoofers/
-  - 12" (16) live
-  - 10" no stock — placeholder
-- Enclosures (15) /shop/enclosures/
-- Amplifiers (20) /shop/amplifiers/ — expanded
-  - Mono (15) live
-  - 4-channel — design placeholder
-  - 5-channel (5) live
-- Alarms & Remote Start (15) /shop/alarms-remote-start/
-- Dash Cameras (7) /shop/dash-cameras/
-- Processors & Line Outputs (4) /shop/processors-line-output/
-- Installation Parts (29) /shop/installation-parts/
-  - Integration Modules (10)
-  - Dash Kits & Harnesses (7)
-  - RCA & Amp Kits (7)
-  - Power Distribution (5)
-
-Grid cards are labeled Placeholder product — not live catalog SKUs.
+## Unchanged from approved v2
+- Utility bar + main nav
+- Compact banner chips + text: “Buy Now, Pay Later — drive in / pick up from Carson today.”
+- No banner thumbnail strip
+- Expanded category tree (Speakers sizes/types, Amplifiers Mono / 4-channel placeholder facet / 5-channel, Installation Parts children)
+- No bio, tint pitch, testimonials, or dark hero
