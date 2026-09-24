@@ -5,7 +5,8 @@ White Crutchfield-inspired shelf layout. Not production. Do not deploy.
 ## Files
 - Screenshot: `/workspace/screenshots/ams-homepage-mock-crutchfield-v2.png`
 - HTML: `mocks/ams-homepage-mockup.html`
-- Google Drive PNG: https://drive.google.com/file/d/REPLACE/view
+- Google Drive JPG: https://drive.google.com/file/d/1HpKPCmykjMG1cyFzkEG8okapb5pj6Wwd/view?usp=drivesdk
+- Google Drive banner JPG: https://drive.google.com/file/d/1Eu8Yk7gDMkuybkL3TNcN0D7iXQYXnzl7/view?usp=drivesdk
 
 ## Banner
 - Chips: Buy Now · Pay Later · pickup in Carson
