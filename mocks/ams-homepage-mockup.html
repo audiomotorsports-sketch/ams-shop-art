@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Audio MotorSports — Shop</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --line: #e6e6e6;
+    --bg: #ffffff;
+    --chip: #f4f4f4;
+    --accent: #1f4f8a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f3f3f3;
+    color: var(--ink);
+  }
+  .page {
+    width: 1440px;
+    margin: 0 auto;
+    background: var(--bg);
+    min-height: 100vh;
+  }
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 28px;
+    border-bottom: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--muted);
+    background: #fafafa;
+  }
+  .topbar b { color: var(--ink); font-weight: 600; }
+  .chrome-right { display: flex; gap: 18px; align-items: center; }
+  header.site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .logo-mark {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: #111; color: #e8c36a; display: grid; place-items: center;
+    font-size: 10px; font-weight: 800; letter-spacing: .04em;
+  }
+  .brand h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+  .brand span { display: block; font-size: 11px; color: var(--muted); font-weight: 400; }
+  .search {
+    flex: 1; max-width: 520px; margin: 0 28px;
+    border: 1px solid #d8d8d8; border-radius: 4px; padding: 8px 12px;
+    font-size: 13px; color: #888; background: #fff;
+  }
+  .header-actions { font-size: 13px; color: var(--muted); display: flex; gap: 16px; }
+  .banner {
+    display: grid; grid-template-columns: 1.15fr 1fr; gap: 18px; align-items: center;
+    padding: 14px 28px 16px; border-bottom: 1px solid var(--line); background: #fff;
+  }
+  .banner-copy h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    font-size: 12px; background: var(--chip); border: 1px solid #e1e1e1;
+    border-radius: 999px; padding: 5px 10px; color: #222;
+  }
+  .prod-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .prod-strip figure {
+    border: 1px solid var(--line); background: #f7f7f7; height: 86px; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .prod-strip img { width: 100%; height: 100%; object-fit: cover; }
+  .shop { display: grid; grid-template-columns: 220px 1fr; min-height: 900px; }
+  nav.cats { border-right: 1px solid var(--line); padding: 16px 0 24px; background: #fff; }
+  nav.cats h3 {
+    font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #888; padding: 0 18px 8px;
+  }
+  nav.cats a {
+    display: block; padding: 9px 18px; font-size: 14px; color: #1a1a1a;
+    text-decoration: none; border-left: 3px solid transparent;
+  }
+  nav.cats a:hover, nav.cats a.active { background: #f6f8fb; border-left-color: var(--accent); color: var(--accent); }
+  .grid-wrap { padding: 16px 20px 28px; }
+  .grid-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+  .grid-head h2 { font-size: 16px; font-weight: 650; }
+  .grid-head span { font-size: 12px; color: #888; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .card { border: 1px solid var(--line); background: #fff; display: flex; flex-direction: column; }
+  .card .thumb { height: 148px; background: #f5f5f5; overflow: hidden; }
+  .card img { width: 100%; height: 100%; object-fit: cover; }
+  .card .meta { padding: 10px 10px 12px; }
+  .card .name { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .card .sub { font-size: 11px; color: #777; margin-top: 3px; }
+  .card .price { font-size: 14px; margin-top: 8px; font-weight: 700; }
+  footer {
+    border-top: 1px solid var(--line); padding: 14px 28px; font-size: 12px; color: #888;
+    display: flex; justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="topbar">
+      <div>Walk-in shop · Carson, CA · 22025 S Avalon Blvd Ste A</div>
+      <div class="chrome-right">
+        <span><b>(310) 513-8800</b></span>
+        <span>Mon–Sat 9:30–6:00</span>
+        <span>Cart (0)</span>
+      </div>
+    </div>
+    <header class="site">
+      <div class="brand">
+        <div class="logo-mark">AMS</div>
+        <div>
+          <h1>Audio MotorSports</h1>
+          <span>Car stereo · alarms · pickup in Carson</span>
+        </div>
+      </div>
+      <div class="search">Search products…</div>
+      <div class="header-actions">
+        <span>Account</span>
+        <span>Orders</span>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="banner-copy">
+        <h2>Shop car stereo in Carson</h2>
+        <div class="chips">
+          <span class="chip">Buy Now</span>
+          <span class="chip">Pay Later</span>
+          <span class="chip">pickup in Carson</span>
+        </div>
+      </div>
+      <div class="prod-strip">
+        <figure><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-car-stereos-desktop-2560x1440.jpg" alt="Car stereo"></figure>
+        <figure><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-speakers-desktop-2560x1440.jpg" alt="Speakers"></figure>
+        <figure><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-amplifiers-desktop-2560x1440.jpg" alt="Amplifier"></figure>
+        <figure><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-alarms-remote-start-desktop-2560x1440.jpg" alt="Car alarm"></figure>
+      </div>
+    </section>
+    <div class="shop">
+      <nav class="cats" aria-label="Categories">
+        <h3>Shop by category</h3>
+        <a class="active" href="/car-stereos">Car Stereos</a>
+        <a href="/speakers">Speakers</a>
+        <a href="/subwoofers">Subwoofers</a>
+        <a href="/enclosures">Enclosures</a>
+        <a href="/amplifiers">Amplifiers</a>
+        <a href="/alarms-remote-start">Alarms & Remote Start</a>
+        <a href="/dash-cameras">Dash Cameras</a>
+      </nav>
+      <div class="grid-wrap">
+        <div class="grid-head">
+          <h2>In stock · pickup in Carson</h2>
+          <span>Placeholder products — names/prices not catalog data</span>
+        </div>
+        <div class="grid">
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-car-stereos-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">Double-DIN touchscreen receiver</div><div class="sub">Car Stereos</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-speakers-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">6.5" component speaker set</div><div class="sub">Speakers</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-subwoofers-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">12" subwoofer</div><div class="sub">Subwoofers</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-enclosures-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">Ported enclosure</div><div class="sub">Enclosures</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-amplifiers-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">4-channel amplifier</div><div class="sub">Amplifiers</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-alarms-remote-start-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">Alarm + remote start kit</div><div class="sub">Alarms & Remote Start</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-dash-cameras-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">Front dash camera</div><div class="sub">Dash Cameras</div><div class="price">See price in shop</div></div></article>
+          <article class="card"><div class="thumb"><img src="https://raw.githubusercontent.com/audiomotorsports-sketch/ams-shop-art/main/audiomotorsports-brand-kicker-desktop-2560x1440.jpg" alt=""></div><div class="meta"><div class="name">Loaded box system</div><div class="sub">Subwoofers</div><div class="price">See price in shop</div></div></article>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span>Audio MotorSports · Carson walk-in shop</span>
+      <span>Mockup only — not production</span>
+    </footer>
+  </div>
+</body>
+</html>
