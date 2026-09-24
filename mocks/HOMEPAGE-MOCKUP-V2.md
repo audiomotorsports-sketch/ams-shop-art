@@ -4,7 +4,7 @@ Keep v1 white shelf design. Left column only revised.
 Not production. Do not deploy.
 
 ## Files
-- Google Drive JPG: https://drive.google.com/file/d/REPLACE_AFTER_UPLOAD/view
+- Google Drive JPG: https://drive.google.com/file/d/1pYeofdfNtdwEMNwWBMAnecdyQI9HO8cD/view?usp=drivesdk
 - HTML: mocks/ams-homepage-mockup-v2.html
 - Local: /home/workdir/artifacts/ams-homepage-mockup-v2.jpg
 
