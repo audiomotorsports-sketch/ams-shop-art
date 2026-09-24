@@ -1,12 +1,18 @@
 # Audio MotorSports homepage mock v2
 
-Keep v1 white shelf design. Left column only revised.
+Keep v1 white shelf design. Left column taxonomy + banner text tweak.
 Not production. Do not deploy.
 
 ## Files
-- Google Drive JPG: https://drive.google.com/file/d/1pYeofdfNtdwEMNwWBMAnecdyQI9HO8cD/view?usp=drivesdk
-- HTML: mocks/ams-homepage-mockup-v2.html
-- Local: /home/workdir/artifacts/ams-homepage-mockup-v2.jpg
+- Google Drive JPG (banner update): https://drive.google.com/file/d/1Eu8Yk7gDMkuybkL3TNcN0D7iXQYXnzl7/view?usp=drivesdk
+- Local HTML: /home/workdir/artifacts/ams-homepage-mockup-v2.html
+- Local JPG: /home/workdir/artifacts/ams-homepage-mockup-v2.jpg
+
+## Banner
+- Chips kept: Buy Now · Pay Later · pickup in Carson
+- Four small banner product thumbs REMOVED (duplicated the grid)
+- Right-side text: “Buy Now, Pay Later — drive in / pick up from Carson today.”
+- No owner bio, no tint pitch, no testimonials
 
 ## Left rail (homepage)
 - No aria-current
